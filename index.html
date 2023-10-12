@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Filter & Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">PhotoKart</div>
+            <input type="text" id="textSearch" placeholder="Search Content...">
+            <h3>Category</h3>
+            <ul class="category-list">
+
+            </ul>
+            <h3>Price Range</h3>
+            <div class="price">
+                <input type="range" id="priceRange">
+                <span class="priceValue">500</span>
+            </div>
+        </div>
+        <div class="content">
+            <div class="products"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+<!-- https://www.tutorjoes.in/JS_tutorial/ecommerce_product_filter_in_javascript -->
